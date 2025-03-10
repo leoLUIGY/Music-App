@@ -108,3 +108,67 @@ h1 {
         background-image:linear-gradient(to bottom, #585858 0%, #1B1B1B 51%);
     }
 }
+
+
+
+.Container{
+    height: 100%;
+   
+}
+
+#search{
+    display: grid;
+   grid-auto-flow: column;
+   justify-content: center;
+   grid-column-gap: 60%;
+}
+
+#search > button{
+    height:30px;
+    top:50px;
+    background-color: #1b1b1b14;
+    border-radius: 5px;
+}
+#body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column  ;
+    
+}
+#headBTN
+{
+    margin: 20px 0 20px 0;
+  
+   display: grid;
+   grid-auto-flow: column;
+   justify-content: center;
+   grid-column-gap: 30px;
+    width: 100%;
+    
+    
+}
+#headBTN > button{
+    width: 100px;
+    height: 35px;
+    
+    border-radius: 50px;
+}
+
+.itemMusic{
+    padding: 10px 0 10px 0; 
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    grid-column-gap: 30px;
+     width: 100%;
+}
+
+#itemSelected{
+    display: grid;
+   margin-top: auto;
+    grid-auto-flow: column;
+    justify-content: center;
+    grid-column-gap: 30px;
+     width: 100%;
+}

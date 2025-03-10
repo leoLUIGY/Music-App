@@ -10,4 +10,14 @@
     <allow-intent href="https://*/*" />
 
     <preference name="android-buildToolsVersion" value="34.0.0" />
+   
+      <platform name="android">
+        <allow-intent href="file:///*" />
+    </platform>
+
+    <!-- Plugins necessários -->
+    <plugin name="cordova-plugin-file" />
+    <plugin name="cordova-plugin-media" />
+    <plugin name="cordova-plugin-media-capture" />
+    <plugin name="cordova-plugin-android-permissions" />
 </widget>
